@@ -12,7 +12,7 @@ Web application from the Django Tutorial project where users can vote on polls.
  
  
 ## How to run
-* cd to go to django-polls directory on cmd.
+* cd to django-polls directory on cmd.
 * type "py manage.py runserver" on cmd.
 * go to http://127.0.0.1:8000/ on browser.
 
