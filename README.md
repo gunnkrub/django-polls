@@ -22,7 +22,7 @@ There are 2 polls right now.
 * What do you like to eat more?    
 	* McDonald's    
 	* KFC    
-* What would you like to go?    
+* Where would you like to go?    
 	* Beach    
 	* Mountain    
 	 
