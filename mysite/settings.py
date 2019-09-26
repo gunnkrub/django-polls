@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config('SECRET_KEY', default = True)
+SECRET_KEY = config('SECRET_KEY', default = "assdibvisdbfiuasdbouasa")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool, default = True)
@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': config('DB_ENGINE', default = True),
+        'ENGINE': config('DB_ENGINE', default = "django.db.backends.sqlite3"),
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
@@ -109,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = config('TIME_ZONE', default = True)
+TIME_ZONE = config('TIME_ZONE', default = "QJEBHQBDCoasodo")
 
 USE_I18N = True
 
