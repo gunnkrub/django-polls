@@ -12,10 +12,10 @@
 		<input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
 		<label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br>
 	{% endfor %}
-	</form>
+	
 	<input type="submit" value="Vote">
 	<a href="{% url 'logout' %}?next={{request.path}}"> Logout </a>
-	
+	</form>
 {% else %}
 	 <a href="{% url 'login' %}?next={{request.path}}"> Login </a>
 {% endif %}
